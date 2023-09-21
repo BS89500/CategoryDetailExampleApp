@@ -34,4 +34,5 @@
         android:layout_height="wrap_content"
         tools:srcCompat="@tools:sample/avatars"
         android:layout_weight="4"/>
+
 </androidx.appcompat.widget.LinearLayoutCompat>
