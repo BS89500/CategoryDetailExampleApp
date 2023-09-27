@@ -15,9 +15,11 @@
         <activity
             android:name=".CategoryActivity"
             android:label="Category Page"
+            android:parentActivityName=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".DetailActivity"
+            android:parentActivityName=".MainActivity"
             android:label="Detail Page"
             android:exported="false" />
         <activity
