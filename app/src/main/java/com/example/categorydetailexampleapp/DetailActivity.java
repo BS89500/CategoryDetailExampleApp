@@ -28,9 +28,12 @@ public class DetailActivity extends AppCompatActivity {
             // This page will display the specific Detailed data for what your app is showing.
             // Get references to the xml views for name, price, desc, and photo
             // set values on the screen based on the object that was passed to this Detail activity
+            title.setText(myFood.getFood());
+            desc.setText(myFood.getSpecialInstructions());
+            price.setText("$" + Double.toString(myFood.getPrice()));
             if (myFood.getImg() == 0) {
                 // set a default pic or decide what to do in this case.
-                img.setImageResource(R.drawable.chicken_and_broccoli);
+                img.setImageResource(R.drawable.screenshot_2023_09_29_at_11_53_55_am);
             }
             else {
             // replace the ___ with your ImageView variable

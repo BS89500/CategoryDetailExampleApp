@@ -3,6 +3,8 @@
     <style name="Base.Theme.CategoryDetailExampleApp" parent="Theme.Material3.DayNight">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor">@color/pink</item>
+        <item name="actionBarTheme">@color/pink</item>
     </style>
 
     <style name="Theme.CategoryDetailExampleApp" parent="Base.Theme.CategoryDetailExampleApp" />

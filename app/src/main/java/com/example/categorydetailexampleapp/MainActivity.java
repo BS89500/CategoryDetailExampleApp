@@ -33,12 +33,12 @@ public class MainActivity extends AppCompatActivity {
 
                 // the choices for the menu on MainActivity coincide with the values in arr in strings.xml file
                 if (position == 0) {        		  	// they chose breakfast
-                    for (Food f: Food.dinnerItems) {      // add all the elements for this array to the arraylist
+                    for (Food f: Food.breakfastItems) {      // add all the elements for this array to the arraylist
                         listData.add(f);
                     }
                 }
 
-                /*
+
                 else if (position == 1) {
                     for (Food f: Food.lunchItems) { 		// they chose lunch
                         listData.add(f);
@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                 }
 
-                 */
+
 
                 // Send this particular ArrayList of Food data to the next activity, where we display
                 // each name of each object in the ArrayList.

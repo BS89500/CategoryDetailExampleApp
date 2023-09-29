@@ -78,9 +78,19 @@ public class Food implements Parcelable {
     }
 
     public static final Food[] dinnerItems = {
-            new Food("steak", 40.79, "blue rare",R.drawable.steak),
-            new Food("house speshial", 30.99, "homemade", R.drawable.chicken_and_broccoli),
-            new Food("milk noodles", 20.60, "delishious", R.drawable.milknoodles)
+            new Food("Steak", 40.79, "Blue Rare",R.drawable.steak),
+            new Food("House Speshial", 30.99, "Homemade Sauce", R.drawable.chicken_and_broccoli),
+            new Food("Milk Noodles", 20.60, "Delishious", R.drawable.milknoodles)
+    };
+    public static final Food[] lunchItems = {
+            new Food("The RatBurger", 18.39, "he wants to be eaten",R.drawable.maxresdefault),
+            new Food("Chicken Breast", 30.99, "Beutifuly Cooked", R.drawable.chicken_breast),
+            new Food("Chinese noodles", 20.60, "Oriental", R.drawable.chinese)
+    };
+    public static final Food[] breakfastItems = {
+            new Food("Potato Salad", 15, "Gourmet",R.drawable.potato_slad),
+            new Food("Waffle", 13.54, "Original Recipe", R.drawable.waffle),
+            new Food("Pancakes", 18.75, "Lightly Cooked", R.drawable.pancakes)
     };
 
     public String getFood() {
